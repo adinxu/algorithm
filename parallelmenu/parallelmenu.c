@@ -1,4 +1,7 @@
 #include "parallelmenu_api.h"
+#ifndef __WIN__
+#include <unistd.h>
+#endif
 int parallelmenu()
 {
     int speed=0;
@@ -28,6 +31,9 @@ int parallelmenu()
     while(1)
     {
         switchtokeyvalue();
+#ifndef __WIN__
+	sleep(1);
+#endif
     }
 
     return 0;

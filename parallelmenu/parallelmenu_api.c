@@ -209,7 +209,11 @@ void switchtokeyvalue()
 {
     int ret = 0;
     int ascii=getch();
+#ifdef __WIN__
     ret = system("cls");
+#else
+    ret = system("clear");
+#endif
     switch(ascii)
     {
     case 'w': process_KeyAction(keyup);break;
