@@ -73,7 +73,7 @@ void rightRootForeach(BSTNode* pstNode)
     printf("%d\n",pstNode->val);
     return;
 }
-int main()
+int BST()
 {
     memset(&BstTree,0,sizeof(BstTree));
     int array[20]={1,3,5,7,8,9,2,11,17,20,16,6,4,15,14,13,12,10,18,19};

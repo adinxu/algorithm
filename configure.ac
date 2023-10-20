@@ -9,6 +9,7 @@ AC_CONFIG_FILES([
 		  Makefile
 		  src/Makefile
 		  parallelmenu/Makefile
+		  sort/Makefile
 		])
 AC_OUTPUT
 

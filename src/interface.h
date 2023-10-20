@@ -2,6 +2,7 @@
 #define INTERFACE_INCLUDEED
 
 #include"../include/parallelmenu.h"
+#include"../include/BST.h"
 
 
 int interface();

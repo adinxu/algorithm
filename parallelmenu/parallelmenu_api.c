@@ -224,7 +224,7 @@ void switchtokeyvalue()
     default: break;
     }
 }
-void DrawOpt(OptPosition position)//ֻ����������ݣ������?����ʾ
+void DrawOpt(OptPosition position)//ֻ����������ݣ������?����ʾ
 {
     unsigned char* str;
     if(str=(current_opt+(char)position)->name) printf("%s:",str);
